@@ -69,7 +69,7 @@
                     return false;
                 } else if (!mauKT.test(maValue)) {
                     // Nếu giá trị không khớp với biểu thức chính quy
-                    $("#tbMa").html("Nhập sai , 2 số đầu phải là năm sinh: ví dụ 0");
+                    $("#tbMa").html("Nhập sai");
                     $("#tbMa").addClass("mauDo");
                     $("#tbMa").removeClass("mauXanh");
                     return false;
@@ -155,7 +155,7 @@
                     $("#tbDC").removeClass("mauXanh");
                     return false;
                 } else {
-                    $("#tbDC").html("dung");
+                    $("#tbDC").html("Nhap dung");
                     $("#tbDC").addClass("mauXanh");
                     $("#tbDC").removeClass("mauDo");
                     return true;
